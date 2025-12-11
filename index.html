@@ -9,9 +9,9 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play Chickens Stories!.</tw-noscript></noscript></tw-story>
-<tw-storydata name="Chickens Stories!" startnode="1" creator="Twine" creator-version="2.11.1" format="Harlowe" format-version="3.3.9" ifid="952265C5-A02E-415A-ABD5-C57A8EBDECA0" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Intro" tags="" position="1200,300" size="100,100">There once was a cute young chicken named Allie. She lived on a small farm in the middle of nowhere with many other chickens. 
+<tw-storydata name="Chickens Stories!" startnode="14" creator="Twine" creator-version="2.11.1" format="Harlowe" format-version="3.3.9" ifid="952265C5-A02E-415A-ABD5-C57A8EBDECA0" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Intro" tags="" position="1200,300" size="100,100">There once was a cute young chicken named Eve. She lived on a small farm in the middle of nowhere with many other chickens. 
 
-[[Allie wants to play!-&gt;PlayWithWho]]</tw-passagedata><tw-passagedata pid="2" name="PlayWithWho" tags="" position="1200,500" size="100,100">Allie looks around the yard and wonders what rooster she wants to go play with.
+[[Eve wants to play!-&gt;PlayWithWho]]</tw-passagedata><tw-passagedata pid="2" name="PlayWithWho" tags="" position="1200,500" size="100,100">Eve looks around the yard and wonders what rooster she wants to go play with.
 
 &quot;I want to go play with...&quot;
 
@@ -19,10 +19,9 @@
 * [[Bumble the Rooster-&gt;BumbleAdventure]]
 
 (if: $bumbleVisits &gt;= 3)[
-* [[Concert time!-&gt;Concert time!]]
 * [[Home alone with the monkey construction crew...-&gt;Home alone with the monkey construction crew...]]
 ]
-</tw-passagedata><tw-passagedata pid="3" name="RustyAdventure" tags="" position="1000,500" size="100,100">Allie trots over to Rusty.
+</tw-passagedata><tw-passagedata pid="3" name="RustyAdventure" tags="" position="1000,500" size="100,100">Eve trots over to Rusty.
 
 Rusty fluffs his feathers and clucks,  
 “Let’s go see what’s behind the hay bales!”
@@ -32,9 +31,9 @@ They poke around the yard for a while.
 [[Head home-&gt;PlayWithWho]]
 </tw-passagedata><tw-passagedata pid="4" name="BumbleAdventure" tags="" position="1300,700" size="100,100">(set: $bumbleVisits to $bumbleVisits + 1)
 
-Allie finds Bumble pecking at seeds near the fence.
+Eve finds Bumble pecking at seeds near the fence.
 
-“Howdy Allie!” Bumble chirps.  
+“Howdy Eve!” Bumble chirps.  
 “Want to help me look for the sunflower patch?”
 
 They trot off together through the yard, feathers bouncing with excitement.
@@ -43,10 +42,10 @@ They trot off together through the yard, feathers bouncing with excitement.
 
 
 </tw-passagedata><tw-passagedata pid="5" name="Startup" tags="" position="900,300" size="100,100">(set: $bumbleVisits to 0)
-</tw-passagedata><tw-passagedata pid="6" name="BumbleSearch1" tags="" position="1300,900" size="100,100">Allie and Bumble reach the tall grass behind the coop.  
+</tw-passagedata><tw-passagedata pid="6" name="BumbleSearch1" tags="" position="1300,900" size="100,100">Eve and Bumble reach the tall grass behind the coop.  
 The sun is warm, the earth smells sweet, and the wind rustles the grass like waves.
 
-“Allie,” Bumble says seriously, “I remember the patch was *close to something yellow*…  
+“Eve,” Bumble says seriously, “I remember the patch was *close to something yellow*…  
 but I don’t remember if it was the **yellow wheelbarrow** or the **yellow bucket**.”
 
 Which should they look behind?
@@ -55,11 +54,11 @@ Which should they look behind?
 * [[Check behind the yellow bucket-&gt;BumbleSearch2]]
 
 
-</tw-passagedata><tw-passagedata pid="7" name="BumbleBranchA" tags="" position="1100,1000" size="100,100">Allie and Bumble squeeze behind the old yellow wheelbarrow.
+</tw-passagedata><tw-passagedata pid="7" name="BumbleBranchA" tags="" position="1100,1000" size="100,100">Eve and Bumble squeeze behind the old yellow wheelbarrow.
 
 There—hidden in the shade—is a **tiny sprout** pushing through the soil.
 
-“Look, Allie!” Bumble gasps.  
+“Look, Eve!” Bumble gasps.  
 “A baby sunflower! We found the start of the patch!”
 
 Bumble flaps happily, scattering dust everywhere.
@@ -70,7 +69,7 @@ Do they want to keep digging here or check somewhere else?
 * [[Follow the shell trail instead-&gt;BumbleBranchB]]
 
 
-</tw-passagedata><tw-passagedata pid="8" name="BumbleSearch2" tags="" position="1500,1000" size="100,100">Allie and Bumble peek behind the yellow bucket.
+</tw-passagedata><tw-passagedata pid="8" name="BumbleSearch2" tags="" position="1500,1000" size="100,100">Eve and Bumble peek behind the yellow bucket.
 
 No sunflowers…  
 but a trail of **crunchy sunflower shells** leads off into the orchard.
@@ -84,7 +83,7 @@ Do they want to follow the shell trail or search somewhere else?
 * [[Go back and try the wheelbarrow instead-&gt;BumbleBranchA]]
 
 
-</tw-passagedata><tw-passagedata pid="9" name="BumbleBranchB" tags="" position="1500,1125" size="100,100">Allie and Bumble follow the shell trail past the apple trees.
+</tw-passagedata><tw-passagedata pid="9" name="BumbleBranchB" tags="" position="1500,1125" size="100,100">Eve and Bumble follow the shell trail past the apple trees.
 
 At the end of the trail sits a very guilty-looking **squirrel**,  
 its cheeks puffed out like balloons.
@@ -100,7 +99,7 @@ Do they talk to the squirrel or leave it be?
 * [[Quietly sneak away and look elsewhere-&gt;BumbleSearch1]]
 
 
-</tw-passagedata><tw-passagedata pid="10" name="BumbleReunion" tags="" position="1100,1125" size="100,100">Allie and Bumble compare their clues:
+</tw-passagedata><tw-passagedata pid="10" name="BumbleReunion" tags="" position="1100,1125" size="100,100">Eve and Bumble compare their clues:
 
 • The sunflower sprout behind the wheelbarrow  
 • The shell trail in the orchard  
@@ -113,26 +112,53 @@ The puzzle is almost solved.
 
 [[Finish the adventure-&gt;BumbleEnding]]
 
-</tw-passagedata><tw-passagedata pid="11" name="BumbleEnding" tags="" position="1100,1250" size="100,100">Allie and Bumble sit together in the grass.
+</tw-passagedata><tw-passagedata pid="11" name="BumbleEnding" tags="" position="1100,1250" size="100,100">Eve and Bumble sit together in the grass.
 
 “You know,” Bumble says, “sunflowers mean more than seeds.  
 They mean sunshine, friends, and little adventures like this one.”
 
-Allie nods happily.
+Eve nods happily.
 
 “Thanks for helping me,” Bumble says softly.  
 “You always make exploring more fun.”
 
 [[Head home-&gt;PlayWithWho]]
-</tw-passagedata><tw-passagedata pid="12" name="Concert time!" tags="" position="2400,400" size="100,100">Cast: 2
-Location: SLO County &gt; &lt; LA County
-Time: All day
-
-[[Head home-&gt;PlayWithWho]]</tw-passagedata><tw-passagedata pid="13" name="Home alone with the monkey construction crew..." tags="" position="2800,200" size="100,100">Cast: 5
+</tw-passagedata><tw-passagedata pid="12" name="Home alone with the monkey construction crew..." tags="" position="2800,200" size="100,100">Cast: 6
 Location: Home
-Time: Afternoon
+Time: Morning
 
-[[Head home-&gt;PlayWithWho]]</tw-passagedata></tw-storydata>
+
+* [[Interactive-&gt;Interactive]]
+*[[Non-interactive-&gt;Non-Interactive]]
+[[Head home-&gt;PlayWithWho]]</tw-passagedata><tw-passagedata pid="13" name="Interactive" tags="" position="2600,400" size="100,100"></tw-passagedata><tw-passagedata pid="14" name="Non-Interactive" tags="" position="3000,400" size="100,100">I woke up that morning with a fire burning between my legs, my body slick with sweat from the erotic dreams that I had been enjoying all night. My husband Lyle had already left for work, taking the dog today too, leaving the house eerily quiet. I&#39;d slept nude, as I usually did, my petite athletic frame tangled in the sheets. My small perky tits heaved with each breath, nipples hard as diamonds, and god, my pussy throbbed with need! I was soo fucking horny! 
+
+Slipping out of bed, I padded naked to the nightstand where I kept my toys. I selected two, a dildo of average size, the other slightly smaller. Grabbing them both I made my way to the bed, heart pounding with anticipation. Jumping back onto the bed I positioned myself sitting upright. I spread my legs, knees bent and exposed my dripping slit. Slowly I used the larger of the two dildos to tease the wet entrance of my throbbing cunt, rubbing the head along my lips, coating it in my juices. &#39;Fuuck&#39;, I whispered, pushing it in slowly, inch by inch, feeling my walls clench around it. Just as I was pressing the final few inches in a thunderous pounding echoed from the front door!
+
+Startled, I yanked the dildo out with a wet pop, my pussy clenching emptily. &#39;Who the hell??&#39; I thought to myself. Heart rancing, I jumped up, grabbed my nightgown and pulled it over my head as I dashed down the hall towards the entryway. In my haste I didn&#39;t notice that it had bunched around my hip on one side.... arriving at the front door I flung it open, and I froze.
+
+Five burly black construction workers stood there. As early as it was it was already a hot day, all five had their shirts off, all massive, broad shoulders, thick muscles rippling and jeans straining over bulging crotches. Their dark skin glistening with sweat, they stood there, eyes locked on my like wolves spotting prey. One grinned, his gaze on my nipples, still rock hard, poking against the thin fabric of my nightgown, the others all had their gaze fixed lower still... &#39;Shit&#39; I thought, heat flooding my face as I realized my bunched  nightgown was fully displaying the smooth shaven mound of my pussy. I started to close the door and pull my nightgown down but before I could do either the largest one, towering at least 6&#39;4&quot;, arms like tree trunks, shoved his boot into the gap.
+
+&#39;Sorry! I&#39;ll just be a moment&#39; I yelped, pushing against the door harder but they laughed, deep rumbles that sent shivers down my spine. &quot;Looks like an invitation to us, don&#39;t get shy now&quot; growled the one who&#39;s boot was preventing the door from closing. He shouldered the door wide forcing, me to step back, and they poured in like a tidal wave, slamming it shut behind them. I retreated further, still attempting to tug my nightgown down, I told them, &quot;No, please, you can&#39;t!&quot;. &quot;Get her Jamal&quot;, said the biggest, another of them stepped forward and grabbed my wrists, his strong hands pinning them above my head against the wall. Another stepped forward grabbed my nightgown in both hands and ripped it litterally off my body, dropping the torn fabric to the ground at my feel. Naked now, exposed, my body on full display..
+
+&quot;Look at this little white girl, all ready for us&quot;, one sneered, his breath hot on my neck. I twisted, attempting to free my hands or kick out, but they were too strong. Suddenly their hands were everywhere-groping my tits, pinching my nipples until I gasped in pain, spreading my ass cheeks, another&#39;s hands suddenly circled my neck, his hand so big his fingers touched on either side. The boss reached down, his rough fingers probing my soaked pussy. &quot;She&#39;s dripping wet already.&quot;, another round of jeers and laughter at their good luck. Without warning he shoved two thick digits inside me knuckle-deep. I bucked against them, half in protest, half from the electric jolt of pleasure. &quot;Stop! Get off me!&quot; I cried, but my voice cracked, arousal flooding through me.
+
+They dragged me into the living room, shoving me onto my knees on the plush area rug. Jeans unzipped and suddenly I was surrounded by five massive block cocks, each one huge, thick, veins pulsing, heavy balls swaying. The leader, Forman, I heard one call him, stepped up, grabbing my hair and pullled my head back &quot;Open wide princess.&quot; I clamped my lips shut, shaking my head,  a sharp slap to my face, and another to my tits made me yelp, and he rammed his cock in past my teeth. His hot hard cock filled my mouth, I could feel the pulsing veins along his shaft with my lips, his thick head hit the back of my throat and I could feel it Throbbing. Gagging, tears streaming from my eyes, my pussy clenched.
+
+Forman tightened his grip on my hair, tugging painfully at my scalp, and began fucking my throat &quot;Take what you want boys, she loves it&quot; told the others. One stepped up, grabbed my left wrist and, pulling my arm uppwards, dwarfed my hand in his as he forced my fingers around his cock, I couldn&#39;t even close my hand around it fully, I attempted to say &quot;nooo&quot; but with the cock in my mouth it came out a moan, only serving to enflame them further. Another shadow cast over me and my right hand followed the left, this time I gripped the offered cock of my own volition. &quot;See she wants to be used&quot; Forman pointed out to the others while he face-fucked me, his balls slapping my chin with each thrust. The cock in my right hand, while still huge, was not quite as thick as the one in my left, but it had a significant curve in the shaft that I noticed as I worked my hand along it&#39;s length causing it&#39;s owner to let out a low growl of pleasure.
+
+Seeing me stroke the glistening black cocks in each of my hands Forman pulled his cock out of my mouth, &quot;You want this dont you? he asked bending over, &quot;You want us to use your tight little body huh?&quot;, he said, his hot breath gusting against my ear. Looking past her he suggested &quot;Jamal, Leroy, which of you wants her mouth next?&quot; &quot;Give it here&quot; said one, Leroy apparently she saw since it wasn&#39;t Jamal. Stepping in front of her he pulled her head back as Forman had done but instead of immediately filling her drooling mouth with his cock he barked &quot;Open up and stick out your tongue!&quot;. As I opened my mouth and extended my tongue Leroy began slapping my tongue with his meaty cock, soon his black cock was soaking wet with my spit and my face is a mess.. pausing he lifted his shaft and laid it across my face so that his swollen balls were sitting on my eager tongue, &quot;Suck my balls, you know you want to&quot; he said. My tongue quested out and pulled his heavy balls into my mouth. I began to swirl my tongue around the taught midnight skin of his sack as I hollowed my cheeks sucking it deeper into my mouth &quot;Fuuuuuuck&quot; he groaned..
+
+My attention split between the big black cock drapped across my face, the balls filling my mouth, and each of the throbbing cocks in my hands I suddenly realized Forman and Jamal were talking behind me... &quot;I think she can take two at once&quot; Forman was saying, &quot;I&#39;m game if you are boss&quot; said Jamal...
+
+Forman grabbed her ass and gave it a painful squeeze, releasing it he moved his hand around her side, her stomach, snaking it down until his thick middle finger ground over her sopping clit and spread her soaking lips, without pausing he pressed his middle finger deep into her tight, I moaned again, louder this time, his mouth next to my ear he said &quot;We are going to stretch this tight little cunt&quot; suddenly his other hand was on her ass, working between her asscheeks, a wet finger probbing at her asshole &quot;and this ass, all at the same time&quot; I gasped, choking on Leroy&#39;s balls and my own saliva, panicking I coughed, Leroy enjoying every moment of my distress. Forman pressed a  second finger into my wanting cunt and I moaned feeling myself stretch, knowing this was the least of what they were planning on doing to me.
+
+Leroy turned &quot;You want some of this?&quot; he asked the owner of the cock in my left hand &quot;She&#39;s got me to goin&quot; he explained. &quot;You need a break Leroy?&quot; asked Lefty &quot;Chris and I&#39;ll both take a turn, take a sec.&quot; Leroy stepped away as Chris and Lefty stepped in front of her, side-to-side, hips touching, they each palmed her head and brought her mouth to their massive black cocks,. Overwhelmed as she was, with Forman still working two of his fingers in and out of her tight cunt and another finger now knuckle deep in her ass, she eagerly started licking and sucking on the heads of the cocks in front of her, first one, and then the other, switching back and forth, trying to fit both into her mouth at once and running her tongue between them. Chris and Left were Loving her eager mouth, the heads of their giant black cocks so swollen they were more purple than black, her hands still worked their thick shafts in tandem, &quot;I want to make them cum for me&quot; Eve thought to herself.
+
+Just as she came to the realization that she Wanted this to happen Forman pulled his fingers out of her tight cunt and ass, &quot;noo, put them back!&quot; Eve thought. His hands didn&#39;t travel far, just down to her thighs, above her knees, he grabbed her legs and drug them appart, her legs spread Forman got down on his back and worked his way underneath her, lifting her, easily, so he could get his massive black cock in front of her, she gasped again around the two spit-soaked cocks in her mouth when Forman&#39;s massive cock pressed against her stomach, it seemed like she could feel the head of his cock throbbing against her bellybutton, &quot;he&#39;s not THAT big is he?!&quot; she worried to herself. He lifted her again, this time positioning the head of his massive throbbing black cock against her soaking wet entrance, slowly easing her down until her weight was pressing her onto his cock, she could feel herself stretching to accomodate his girth, with no further warning he thrust upwards, impaling her on his cock causing Eve to wail in pleasure, Leroy and Lefty pulled their cocks out of her mouth and began rubbing them along her lips, slapping their heavy spit-soaked shafts against her face, both of them reached down and continued squeezing her tits, toying with her nipples, pinching them, every touch compounding the sensations broiling through her as Forman began to slam his cock into her tight cunt, Eve looked down the length of her body and watched as his massive black cock thrust into her pale pink cunt, and then watched as he pulled it out, his cock so big, and her cunt so tight, that she clung to him as he withdrew, slowly Forman began picking up speed, forcing his cock in and out of her body faster and faster and then he began to increase the force, somehow he was absolutely slamming his cock into her so hard and fast her knees were losing contact with the ground! Her soaking cunt was being jackhammered, she started grinding her hips back and forth, head back, letting this stranger fuck her, she turned her attention back to the two cocks in front of her, Chris and Lefty had been watching in awe as Forman used her cunt and her response to him inside of her, &quot;Bring me those big black cocks&quot; I said, mouth wide tongue lolling, drool already pooling, Chris and Left grinned... and got on their knees! I was stunned... &quot;what are you do...&quot; I got out before Jamal&#39;s hand to the back of my neck pushed me forward, Chris and Left had seen what he intended. Forman was still pistoning his cock in and out of my cunt and Jamal pushed me foward until my hands were on the floor between Forman&#39;s feet, looking back over my shoulder I watched Jamal take thick black cock in one hand and spit a wad of saliva on the other, slowly smearing his spit on the head of his cock while he looked me in the eye he moved forward and pressed his wet head against my asshole, &quot;Yessss&quot; I hissed, &quot;ughh, yes, please yes, I want both of you inside me right now, please, fuck my ass with your big thick nigger cock while Forman fucks my tight little cunt&quot;, I couldn&#39;t belive what I had just said! Jerome grinned evily at me and began pressing his cock into my asshole, I gasped, any one of these cocks was the size of both of my toys at once and taking two... I took a deep breath and pushed back onto Jamal&#39;s cock feeling my tight ring give a little, another deep inhilation through my panting and as I pushed back and Jamal Thrust forward, &quot;uuughghhhh&quot; I groaned, the sharp burn of my violated asshole giving way to waves of pleasure, feeling Jamal&#39;s thick cock pressing ever deeper into my ass and Forman&#39;s cock continuing to pound in and out of my cunt, I could feel them touching inside of myself, my tiny body forcing their cocks to rub through a thin wall of flesh. I moaned louder as Jamal began to match Forman&#39;s rythem, he was a beat slower and would thrust forward on every second thrust of Forman&#39;s, Forman was jackhammering my clenched cunt so fast and hard that Jamal was still slamming in and out of me as fast as anyone ever had! &quot;Ughhh, yes, god your giant nigger cocks feel so good inside of me, please don&#39;t stop&quot; I moaned, looking foward I see that Lefty and Chris are both stroking their own cocks watching me get double penetrated and absolutely salivating, &quot;You two are going to take a turn too right?&quot; I asked innocently, Lefty and Christ looked at eachother and then back at me before Chris demanded &quot;Beg, beg us to fuck you with our massive nigger cocks &quot; &quot;Pleeeeeease, please say you will, oh please please please! I want every single one of you to fuck every one of my holes with your massive nigger cock before you cum!&quot; &quot;I gotta get out of this tight little cunt before I cum right now!&quot; Forman said, &quot;Keep saying shit like that and this aint gunna be a one time thing, we gunna make you ours for good, use you any time we want&quot;. &quot;Yes please!&quot; I eagerly reply &quot;I&#39;ll be be a good little girl for all five of you!&quot; &quot;Fuuuuck&quot; Forman growled, pulling his cock out of her tight cunt he got out from underneath her. Jamal suddnely slammed his cock into her ass up to the base of his shaft, his balls swinging forward and wetly slapping her pussy, and then he was laying back, pulling her with and on top of him, all without his cock ever leaving her asshole. I found myself laying on top of Jamal, his fat cock filling my asshole, the, rigid, sweat slicked muscles of his chest heaving against my back, he reached down and gripped my thighs, spreading my legs and working his hands up until they were locked behind my knees, pulling them towards my tits. Lefty kneeled before me, his throbbing cock twitching at and eager to fill me &quot;you want me inside of you&quot; he asked? &quot;Mmmm, yeesss, please pound my little white cunt with your big black cock, please&quot; I panted at him. Needing no further prompting Lefty pressed his legnth into me, I moaned, loving the feel another of these cocks filling me, &quot;how about me?&quot; Chris asked, standing above my waist, blocking Lefty from sight. He squatted down until his curved ebony cock was resting against my clit and stomatch while his balls rested on Lefty&#39;s shaft as Lefty slammed in and out of me. &quot;Wait!&quot; I gasped, &quot;I don&#39;t know if I can take all three of you at once!&quot;, &quot;But you want to dont you&quot; Chris demanded &quot;You want both of our thick cocks stretching your tight little pussy to its limit while Jermoe fucks your ass, don&#39;t you?&quot; &quot;y-y-es&quot; I stutered, half afraid but wholly wanting it &quot;Yes!&quot; I said with more conviction, &quot;I want both of you in my cunt while Jermoe fucks my  ass!&quot;
+
+
+.... to be continued
+</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
